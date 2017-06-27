@@ -84,8 +84,8 @@ use pocketmine\plugin\PluginBase;
 
 class Loader extends PluginBase {
 
-	const VERSION = "0.99.0";
-	const API_TARGET = "3.0.0-ALPHA5";
+	const VERSION = "0.99.1";
+	const API_TARGET = "3.0.0-ALPHA6";
 
 	const PETS = [
 		"Ghast",
