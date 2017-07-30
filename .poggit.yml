@@ -1,0 +1,11 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Sandertv/BlockPets
+branches:
+- master
+projects:
+  BlockPets-GenisysPro:
+    path: ""
+    icon: resources/BlockPetsLogo.png
+    libs:
+      - src: Falkirks/spoondetector/spoondetector
+        version: ^0
+...
