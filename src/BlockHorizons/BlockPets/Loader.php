@@ -83,7 +83,6 @@ use pocketmine\nbt\tag\ListTag;
 use pocketmine\nbt\tag\StringTag;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
-use spoondetector\SpoonDetector;
 
 class Loader extends PluginBase {
 
@@ -221,7 +220,6 @@ class Loader extends PluginBase {
 		if(!is_dir($this->getDataFolder())) {
 			mkdir($this->getDataFolder());
 		}
-		SpoonDetector::printSpoon($this);
 		CommandOverloads::initialize();
 		foreach(self::PET_CLASSES as $petClass) {
 			Entity::registerEntity($petClass, true);
